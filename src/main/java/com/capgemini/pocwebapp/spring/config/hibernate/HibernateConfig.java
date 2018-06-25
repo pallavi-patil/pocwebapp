@@ -33,7 +33,7 @@ import com.capgemini.pocwebapp.constants.IApplicationConstants;
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({ "com.capgemini.pocwebapp.spring.config.hibernate" })
-@PropertySource("classpath:/config/database/myappdb_${config}.properties")
+@PropertySource("classpath:/config/database/myappdb_dev.properties")
 public class HibernateConfig {
 
 	@Autowired
