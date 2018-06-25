@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="173D1FBF-C250-2CBB-75D3-0D3F430FBDC3" name="group dm">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="group id" id="7ACA9669-F4CD-95CD-8904-9BE44D61753C">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="5A4CB18E-0EE8-D402-612F-B50C49B46F1B">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8A6C9022-466D-C167-FB18-5119A8E7BA84</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="54E78499-2B4B-8665-E25E-0D31665DA56F">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status id" id="49F514EB-2DF6-9819-14CA-D15A98A57742">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last modified by" id="D01B29BF-753A-1DF2-D5CB-FE93455CDB74">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F40CA246-648D-26F5-A3A3-2755B9955AC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last modified dt" id="A77B7DF1-C7C8-3009-7B75-4C52231C0972">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>31AB2DBB-4B97-A93C-6E37-111CB56767DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED3312B8-E14E-D443-4358-730AA24ACD2D" name="group_dm_PK">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:02:57 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7ACA9669-F4CD-95CD-8904-9BE44D61753C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

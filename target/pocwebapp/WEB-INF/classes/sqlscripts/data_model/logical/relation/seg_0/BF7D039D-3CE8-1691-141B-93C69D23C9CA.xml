@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="user_role_role_dm_FK" directorySegmentName="seg_0" id="BF7D039D-3CE8-1691-141B-93C69D23C9CA">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 19:19:17 UTC</createdTime>
+<generatorID>94EF0AEA-2866-D1A8-F6FC-A593A7D3945E</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<sourcePk>9C6B2C8B-97CB-DE78-9676-3C6AE2354E0F</sourcePk>
+<targetPk>C6515BB9-4F34-70B3-DB52-9487069958DA</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED5231D3-9DAC-064E-A81F-6DF24E8C0549</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9AF77E46-BC5F-72F6-32AB-A9655B164FE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

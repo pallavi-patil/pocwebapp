@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D78E649-4449-EA0E-082E-3450F924AC22" name="user">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>929F0AF9-36AE-2467-D41C-41558530CB7A</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="083CF46F-9108-12AB-9862-643800444FD6">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>4C42ECA3-0B80-7B28-2A62-4964E42EA28E</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>614CBF18-4EC1-2900-EC3C-2705604D376B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="087CE0F2-49E3-A0DF-21EC-FEED490EFFE7">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>9A1FFB86-0BF2-7BD3-5693-54D9F78A85E3</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8A6C9022-466D-C167-FB18-5119A8E7BA84</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="middle_name" id="F3A0DEF2-93FD-7B37-661C-87BB9B7C6ADD">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>C47EBEA2-0A53-D81D-49A2-F8AC0B9545D2</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>48F88A1D-7591-0669-B510-9257EE1DA5A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="8658D2FD-4536-3751-CC1B-CE96AFDEE8AF">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>379982AB-2DCC-29A8-7A13-42CE7E08A190</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C8B0AFB4-F437-597D-27C8-9F393E7A93B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="F43D5A2C-6FB4-628D-A3E9-4DCCBDE743AE">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>69E2F82B-A0AD-A172-AD71-934E9394BFFC</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1D311D6E-750F-AA5F-0C8C-ECFDC06E7148</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A6027656-7830-B438-682A-CBB618E15AE6">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>5E7056E0-2786-9A74-C077-CD3D1D7EC8AB</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_id" id="4DD1B924-6426-E0E9-7345-E7C431F9FEE2">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>04E76C00-4D40-8584-72C3-C6BF7BA5ACD6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="remember_token" id="B51C5DD6-1E37-8C14-4375-3B3BE84E0A4F">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>DB850922-346F-7942-1FF4-776704070F67</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_modified_by" id="3D0C357A-DB71-0651-192F-B08F2690687C">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>8A6561C5-DF20-FD76-82D3-7EB0A901404F</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F40CA246-648D-26F5-A3A3-2755B9955AC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_modified_dt" id="1D1CB87E-8F51-95F2-E5DF-55B626CDA68B">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>E6D682B0-4EA2-641F-C8DB-0C0601D25390</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>31AB2DBB-4B97-A93C-6E37-111CB56767DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB018798-B25C-1E77-1D10-4C66C9B1D1B2" name="user_PK">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>548FD7E8-70CC-A368-3DAF-2C80429BBAED</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="083CF46F-9108-12AB-9862-643800444FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9170C16B-91CC-F6A3-7CA4-41F00E8132AD" name="user_IDX">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 19:48:35 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="083CF46F-9108-12AB-9862-643800444FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

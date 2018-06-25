@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="permission role permission FK" directorySegmentName="seg_0" id="9207ED20-405E-4BE0-F721-C8D912D480E6">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:35:29 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<targetPk>3393EE5F-8486-FF98-ACCA-1F879935CE96</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CCB5FBD-8841-C72A-DFAA-2A56CC8A73E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>103EDD08-7AF6-4AA1-978D-67F0B6557698</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

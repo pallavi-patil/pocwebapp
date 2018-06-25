@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8438C92-A3CD-1D2E-B153-12C57853D6D3" containerWithKeyObject="66AC91F9-F2AC-6E42-D5B2-FCA56B9CA49A" localFKIndex="27CFD74E-8ED1-20C5-FE16-A6D90BA9E42E" name="permission_role_permission_dm_FK">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 18:59:55 UTC</createdTime>
+<generatorID>9207ED20-405E-4BE0-F721-C8D912D480E6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<referredTableLongName>permission_dm</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55D59FF5-29A1-0A01-B61F-EA637ADA7B05</referredTableID>
+<keyObject>29B9E714-9263-F925-27E2-3F98F0F279C2</keyObject>
+<referredKeyID>29B9E714-9263-F925-27E2-3F98F0F279C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>permission_id,permission_dm_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

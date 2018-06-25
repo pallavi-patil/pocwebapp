@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="one_group_many_roles" directorySegmentName="seg_0" id="101261E2-6464-5C10-52BE-3A05B10DF94F">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 20:01:21 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="64AD38B3-169F-BB01-6DFC-9F2872F71394" value="true"/>
+</engineerTo>
+<sourcePk>ED3312B8-E14E-D443-4358-730AA24ACD2D</sourcePk>
+<targetPk>C6515BB9-4F34-70B3-DB52-9487069958DA</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>173D1FBF-C250-2CBB-75D3-0D3F430FBDC3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9AF77E46-BC5F-72F6-32AB-A9655B164FE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C11C4BB5-FCE2-926F-3437-1D613CA7C823">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 10:31:21 UTC</createdTime>
+<ownerDesignName>mysqldb</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

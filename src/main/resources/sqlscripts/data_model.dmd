@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="data_model" id="347575A4-35C5-73FB-711C-91126DFDAF95" version="3.5">
+<createdBy>awarhoka</createdBy>
+<createdTime>2018-05-28 10:31:21 UTC</createdTime>
+<ownerDesignName>mysqldb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>347575A4-35C5-73FB-711C-91126DFDAF95</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="24E80398-BC28-01E1-376E-FD2622240F17">
+<designStoragePath>D:\dev\ashish_workspace\mywebapp\src\main\resources\sqlscripts\datamodel</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="347575A4-35C5-73FB-711C-91126DFDAF95">
+<designStoragePath>D:\dev\ashish_workspace\mywebapp\src\main\resources\sqlscripts\mysqldb</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

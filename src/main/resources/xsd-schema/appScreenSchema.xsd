@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="AppScreen">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Screen" type="ScreenType" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="ScreenType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" />
+			<xsd:element name="Id" type="xsd:string" />
+			<xsd:element name="EventName" type="xsd:string" />
+			<xsd:element name="AlternateEventName" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="Title" type="xsd:string" />
+			<xsd:element name="AccessControls" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="HelpFile" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="MenuTab" type="TabType" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Menu" type="MenuType" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Tab" type="TabType" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="SubTab" type="TabType" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Action" type="ActionType" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ActionType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" />
+			<xsd:element name="Id" type="xsd:string" />
+			<xsd:element name="EventName" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="Enabled" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="AccessControls" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Image" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="JSFunction" type="xsd:string" minOccurs="0" maxOccurs="1" default="SubmitService" />
+			<xsd:element name="JSParameters" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="CallBackService" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="CallBackActivity" type="xsd:string" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="DefaultSelected" type="xsd:boolean" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="ActionDescription" type="xsd:string" minOccurs="0" maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MenuType">
+		<xsd:complexContent>
+			<xsd:extension base="ActionType">
+				<xsd:sequence>
+					<xsd:element name="Action" type="ActionType" minOccurs="0" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="TabType">
+		<xsd:complexContent>
+			<xsd:extension base="ActionType">
+				<xsd:sequence>
+					<xsd:element name="Selected" type="xsd:boolean" default="false" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:schema>
